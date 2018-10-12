@@ -112,19 +112,19 @@ end
 
 figure
 set(gcf,'color',[1,1,1])
-subplot(311)
+subplot(131)
 plot(data(:,1), data(:,2),'LineWidth',2)
 grid on
 xlabel('Time [s]','FontSize',13)
 ylabel('Position [deg]','FontSize',13)
 
-subplot(312)
+subplot(132)
 plot(data(:,1), data(:,3),'LineWidth',2)
 grid on
 xlabel('Time [s]','FontSize',13)
 ylabel('Velocity [deg/s]','FontSize',13)
 
-subplot(313)
+subplot(133)
 plot(data(:,1), data(:,5),'LineWidth',2)
 grid on
 xlabel('Time [s]','FontSize',13)
